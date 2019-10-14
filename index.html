@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OVO Weather Assessment</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="index.js"></script>
+</head>
+<body onload="start()">
+    <nav class="navbar navbar-dark bg-dark text-light justify-content-center p-3">
+        <h1>Weather</h1>
+    </nav>
+
+     <div class="container-fluid">
+        <div class="cityName row m-3">
+            <div class="col-5"></div>
+            <div class="col-xl-2">
+                <h1 id="city"></h1>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <table id='table' class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Highest Temperature</th>
+                      <th scope="col">Average Humidity</th>
+                    </tr>
+                  </thead>
+                </table>
+            </div>
+            <div class="col-2"></div>
+        </div>
+     </div>
+</body>
+</html>
